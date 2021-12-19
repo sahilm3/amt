@@ -22,5 +22,5 @@ echo -e "bt-tracker=$tracker_list" >> $(pwd)/aria.conf
 test -f $(pwd)/aria.conf-e && rm $(pwd)/aria.conf-e
 
 aria2c --conf-path=aria.conf
-echo "Aria2c daemon started"
+echo "Aria2c"
 npm start
