@@ -41,7 +41,7 @@ echo -e "bt-tracker=$tracker_list" >> $(pwd)/aria.conf
 test -f $(pwd)/aria.conf-e && rm $(pwd)/aria.conf-e
 
 aria2c --conf-path=aria.conf
-echo "Aria2c daemon started"
+echo "Aria2chh"
 
 # Only start the bot if deployed to heroku, as in local the start command might be different for development
 if [[ -n $DYNO ]]; then
