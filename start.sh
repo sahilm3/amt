@@ -4,6 +4,7 @@
 #MAX_CONCURRENT_DOWNLOADS=5
 
 # Check if bot is deployed to heroku
+npm install ytdl-core
 if [[ -n $DYNO ]]; then
 
 	if [[ -n $GIT_USER && -n $GIT_TOKEN && -n $GIT_REPO ]]; then
